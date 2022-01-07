@@ -151,6 +151,7 @@ main {
     top: 16.5rem;
     transform: translateX(-50%);
     height: 10rem;
+    border-radius: 1rem;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 
@@ -161,4 +162,8 @@ main {
 .player--winner .name {
     font-weight: 700;
     color: #c7365f;
+}
+
+.hidden {
+    display: none;
 }
